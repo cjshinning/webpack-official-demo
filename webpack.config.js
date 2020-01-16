@@ -8,8 +8,9 @@ module.exports = {
         vendors: './src/vendors.js'
     },
     output: {
-        // path: path.resolve(__dirname, 'dist'),
-        // filename: '[name].js'
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: 'https://www.37.com/',
+        filename: '[name].js'
     },
     module: {
         rules: [
